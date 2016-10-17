@@ -102,6 +102,13 @@ p {
 .nav-links a{
 	color:#777777;
 	text-decoration: none;
+	padding:31px 10px;
+	font-size: 20px;
+}
+
+.nav-links a:hover{
+	background-color:#4aaaa6;
+	color:#fff;
 }
 
 .nav-list li{
@@ -112,8 +119,8 @@ p {
 }
 
 .main-content {
-	width: 650px;
-	padding: 10px;
+	width:100%;
+	padding:10px;
 	margin-bottom: 100px;
 	float: left;
 	background-color: #ffffff;
@@ -187,7 +194,7 @@ p {
 	text-align: center;
 }
 
-/* Begin Styles only for Contact-Me page */
+/* Begin Styles only for Portfolio page */
 
 .portfolio-content li {
 	display: block;
@@ -196,6 +203,10 @@ p {
 .portfolio-content img {
 	display: block;
 	margin:15px 35px;
+}
+
+.portfolio-content img:hover {
+	box-shadow:0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Begin Styles only for Contact-Me page */
